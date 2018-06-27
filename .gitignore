@@ -1,4 +1,19 @@
-node_modules
-yarn.lock
+# os
+Thumbs.db
+.DS_Store
+
+# node
+node_modules/
 public_html/
+npm-debug.log
+
+# yarn
+yarn-error.log
+yarn.lock
+
+# js
+*.min.js
+*.map
+
+# IDE
 .idea/
