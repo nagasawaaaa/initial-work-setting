@@ -1,27 +1,29 @@
 {
-  "name": "workset",
-  "version": "1.0.0",
-  "description": "my initialize workset",
-  "main": "index.js",
-  "repository": "https://github.com/nagasawaaaa/initial-work-setting",
-  "author": "nagasawaaaa",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "gulp": "gulp",
-    "start": "gulp"
+    "start": "gulp",
+    "clean": "gulp clean"
   },
   "dependencies": {
-    "browser-sync": "^2.18.13",
-    "eslint": "^4.5.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "gsap": "^2.0.1",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-using": "^0.1.1",
-    "rimraf": "^2.6.1",
-    "webpack": "^3.5.5"
+    "jquery": "^3.3.1",
+    "rimraf": "^2.6.2",
+    "run-sequence": "^2.2.1",
+    "webpack": "^4.5.0",
+    "webpack-stream": "^4.0.3"
   }
 }
